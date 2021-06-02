@@ -3,7 +3,7 @@
 Tenho um caderno com os principais comandos anotados que consulto no dia a dia. Depois de uma conversa muito interessante com uma pessoa experiente, fui apresentada ao ciclo do **Learn Public**, onde *Todo ensino precisa ser: aprendido, adquirido e compartilhado*. Então resolvi transfeir minhas anotações para esse arquivo e torná-lo público. 
 
 ps: estou partindo do princípio que vc já conhece/usa o Git. Caso seja iniciante, recomendo que leia esse [artigo](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
-ps2: esse é o padrão que utilizamos na empresa. Na sua pode ser diferente
+
 
 ## Subindo mudanças pro Git
 1. `git commit -m "sua_mensagem"`: envia as mudanças nos arquivos do repositório local para o remoto
@@ -15,7 +15,7 @@ ps2: esse é o padrão que utilizamos na empresa. Na sua pode ser diferente
 ## Trabalhando com Branches
 1. `git branch <nome_da_branch>`: cria uma branch 
 2. `git branch`: lista todas as branches disponíveis localmente e marca a que vc está trabalhando
-3. `git checkout <nome_da_branch`: muda da branch atuatl para <nome_da_branch>
+3. `git checkout <nome_da_branch`: muda da branch atual para <nome_da_branch>
 4. `git checkout -b <nome_da_branch`: cria uma branch e já muda pra ela
 5. `git reset --hard origin/<nome_da_branch>`: reseta a branch para a versão remota
 6. `git fetch <remote>`: baixa todas as branches do repositório remoto 
