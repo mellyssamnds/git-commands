@@ -1,6 +1,6 @@
 # Sobre
 
-Tenho um caderno com os principais comandos anotados que consulto no dia a dia. Depois de uma conversa muito interessante com uma pessoa experiente, fui apresentada ao ciclo do **Learn Public**, onde *Todo ensino precisa ser: aprendido, adquirido e compartilhado*. Então resolvi transfeir minhas anotações para esse arquivo e torná-lo público. 
+Tenho um caderno com os principais comandos anotados que consulto no dia a dia. Depois de uma conversa muito interessante com uma pessoa experiente, fui apresentada ao ciclo do **Learn Public**, onde *Todo ensino precisa ser: aprendido, adquirido e compartilhado*. Então resolvi transferir minhas anotações para esse arquivo e torná-lo público. 
 
 ps: estou partindo do princípio que vc já conhece/usa o Git. Caso seja iniciante, recomendo que leia esse [artigo](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
@@ -20,6 +20,7 @@ ps: estou partindo do princípio que vc já conhece/usa o Git. Caso seja inician
 5. `git reset --hard origin/<nome_da_branch>`: reseta a branch para a versão remota
 6. `git fetch <remote>`: baixa todas as branches do repositório remoto 
 7. `git fetch <remote> <nome_da_branch>`: baixa a branch especificada
+8. `git branch -D <nome_da_branch>`: deleta uma branch
 
 ## Fazendo deploy/subindo pra produção
 1. `git pull origin <sua_branch>`: pega todas as alterações da <sua_branch> remota e mescla localmente
