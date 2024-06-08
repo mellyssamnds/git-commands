@@ -21,6 +21,7 @@ ps: estou partindo do princípio que vc já conhece/usa o Git. Caso seja inician
 6. `git fetch <remote>`: baixa todas as branches do repositório remoto 
 7. `git fetch <remote> <nome_da_branch>`: baixa a branch especificada
 8. `git branch -D <nome_da_branch>`: deleta uma branch
+9. `git branch -m <nome-antigo> <novo-nome>`: renomeia uma branch local a partir de outra branch
 
 ## Fazendo deploy/subindo pra produção
 1. `git pull origin <sua_branch>`: pega todas as alterações da <sua_branch> remota e mescla localmente
